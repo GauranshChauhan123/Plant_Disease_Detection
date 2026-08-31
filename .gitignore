@@ -68,8 +68,8 @@ datasets/
 *.pb
 *.pkl
 *.joblib
-plant_disease_model/models/*
-!plant_disease_model/models/.gitkeep
+# plant_disease_model/models/*
+# !plant_disease_model/models/.gitkeep
 
 # =============================================================================
 # Training / Evaluation Logs & Outputs
