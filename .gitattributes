@@ -1,0 +1,2 @@
+plant_disease_model/models/**/*.h5 filter=lfs diff=lfs merge=lfs -text
+plant_disease_model/models/**/*.keras filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,37 @@
+Plant Disease Detection
+Validation Classification Report
+
+                                precision    recall  f1-score   support
+
+              Apple_cedar_rust     1.0000    1.0000    1.0000        55
+                 Apple_healthy     0.9763    1.0000    0.9880       329
+                    Apple_scab     1.0000    0.9603    0.9798       126
+    Bell_pepper_bacterial_spot     0.9950    1.0000    0.9975       200
+           Bell_pepper_healthy     1.0000    1.0000    1.0000       295
+             Blueberry_healthy     1.0000    1.0000    1.0000       300
+                Cherry_healthy     1.0000    0.9941    0.9971       170
+              Corn_common_rust     1.0000    0.9916    0.9958       239
+           Corn_gray_leaf_spot     0.8723    0.7961    0.8325       103
+     Corn_northern_leaf_blight     0.8942    0.9442    0.9185       197
+               Grape_black_rot     1.0000    1.0000    1.0000       236
+                 Grape_healthy     1.0000    1.0000    1.0000        84
+                 Peach_healthy     0.9859    0.9722    0.9790        72
+           Potato_early_blight     0.9950    0.9950    0.9950       200
+            Potato_late_blight     0.9660    0.9950    0.9803       200
+             Raspberry_healthy     1.0000    1.0000    1.0000        74
+               Soybean_healthy     0.9990    0.9980    0.9985      1018
+         Squash_powdery_mildew     0.9973    1.0000    0.9986       367
+            Strawberry_healthy     1.0000    1.0000    1.0000        92
+         Tomato_bacterial_spot     0.9766    0.9835    0.9801       425
+           Tomato_early_blight     0.9767    0.8400    0.9032       200
+                Tomato_healthy     0.9815    1.0000    0.9907       318
+            Tomato_late_blight     0.9607    0.9607    0.9607       382
+              Tomato_leaf_mold     0.9789    0.9738    0.9764       191
+           Tomato_mosaic_virus     0.9867    1.0000    0.9933        74
+     Tomato_septoria_leaf_spot     0.9721    0.9859    0.9790       354
+Tomato_two_spotted_spider_mite     0.9622    0.9881    0.9750       335
+ Tomato_yellow_leaf_curl_virus     0.9963    0.9935    0.9949      1071
+
+                      accuracy                         0.9843      7707
+                     macro avg     0.9812    0.9776    0.9791      7707
+                  weighted avg     0.9844    0.9843    0.9841      7707

@@ -6,3 +6,5 @@ seaborn
 scikit-learn
 pillow
 opencv-python
+transformers==4.57.6
+tf-keras==2.20.0

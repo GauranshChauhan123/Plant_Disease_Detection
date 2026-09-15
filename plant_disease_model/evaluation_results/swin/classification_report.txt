@@ -1,0 +1,39 @@
+Plant Disease Detection - Swin Transformer
+PlantVillage Validation Classification Report
+
+Validation Accuracy: 99.27%
+
+                                precision    recall  f1-score   support
+
+              Apple_cedar_rust     1.0000    1.0000    1.0000        55
+                 Apple_healthy     1.0000    0.9878    0.9939       329
+                    Apple_scab     0.9921    1.0000    0.9960       126
+    Bell_pepper_bacterial_spot     0.9950    1.0000    0.9975       200
+           Bell_pepper_healthy     0.9966    1.0000    0.9983       295
+             Blueberry_healthy     1.0000    1.0000    1.0000       300
+                Cherry_healthy     0.9713    0.9941    0.9826       170
+              Corn_common_rust     0.9958    0.9958    0.9958       239
+           Corn_gray_leaf_spot     0.9700    0.9417    0.9557       103
+     Corn_northern_leaf_blight     0.9650    0.9797    0.9723       197
+               Grape_black_rot     1.0000    1.0000    1.0000       236
+                 Grape_healthy     1.0000    1.0000    1.0000        84
+                 Peach_healthy     0.9863    1.0000    0.9931        72
+           Potato_early_blight     1.0000    0.9900    0.9950       200
+            Potato_late_blight     1.0000    0.9850    0.9924       200
+             Raspberry_healthy     0.9867    1.0000    0.9933        74
+               Soybean_healthy     0.9980    0.9951    0.9966      1018
+         Squash_powdery_mildew     1.0000    1.0000    1.0000       367
+            Strawberry_healthy     1.0000    1.0000    1.0000        92
+         Tomato_bacterial_spot     0.9882    0.9835    0.9858       425
+           Tomato_early_blight     0.9469    0.9800    0.9631       200
+                Tomato_healthy     0.9969    1.0000    0.9984       318
+            Tomato_late_blight     0.9868    0.9817    0.9843       382
+              Tomato_leaf_mold     1.0000    0.9895    0.9947       191
+           Tomato_mosaic_virus     1.0000    1.0000    1.0000        74
+     Tomato_septoria_leaf_spot     0.9806    0.9972    0.9888       354
+Tomato_two_spotted_spider_mite     0.9881    0.9910    0.9896       335
+ Tomato_yellow_leaf_curl_virus     1.0000    0.9944    0.9972      1071
+
+                      accuracy                         0.9927      7707
+                     macro avg     0.9909    0.9924    0.9916      7707
+                  weighted avg     0.9928    0.9927    0.9927      7707
